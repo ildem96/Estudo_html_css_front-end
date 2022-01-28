@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Página Inicial</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <!--para add icons-->
+   <script src="https://kit.fontawesome.com/c32fbe7f54.js" crossorigin="anonymous"></script>
+   
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- colando arquivo .css-->
+    <link rel="stylesheet" href="Css/estilo.css">
+  </head>
+  
+  <!--inicio da página-->
+  <body>
+    
+    <header class="cabecalho">
+      
+      <h1 class="logo">
+           <a href="index.html" title=" NodeShop | Loja de Informatica"> </a>
+      </h1>
+      
+      <form method="POST">
+             <input type="text" name="busca" placeholder="Search">
+             <button><i class="fa fa-search"  fa-4x></i></button>
+         </form>
+      
+    </header>
+    <!--adicionando menu de navegação-->
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+        <!--Adicionando os social icons-->
+    <div class="social-icons">
+        <a href="#" class="btn-google">  <i class="fa fa-google-plus"  fa-2x></i></a>
+        <a href="#" class="btn-facebook"><i class="fa fa-facebook"  fa-2x></i></a>
+        <a href="#" class="btn-whatsapp"><i class="fa fa-whatsapp" fa-2x></i></a>
+        <a href="#" class="btn-wechat">  <i class="fa fa-weixin" fa-2x></i></a>
+    </div>
+</nav>
+<!--conteudo da página-->
+<main class="principal">
+    <article class="sobre">
+        <h2>About Us</h2>
+        <img source src="/Images/loja.jpg" alt=NodeShop>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </article>
+    <!--Sidebar-->
+    <aside class="onde">
+        
+        <h2>Where are we?</h2>
+        <p>Av. Jucá Leão - Centro Comercial, Itabuna - BA</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.527279011308!2d-39.28657458553376!3d-14.79563630312222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x739aaf0cc0db597%3A0x9dfa10026b580036!2sAv.%20Juca%20Le%C3%A3o%20-%20Centro%20Comercial%2C%20Itabuna%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1643226755748!5m2!1spt-BR!2sbr" ></iframe>
+        <h2>Contacts</h2>
+        
+        <ul>
+            <li><i class="fa fa-phone fa-lg"></i>  (98) 98400-3390</li>
+            <li><i class="fa fa-whatsapp fa-lg"></i>  (98) 98400-3390</li>
+            <li><i class="fa fa-envelope fa-lg"></i> ildember96@gmail.com</li>
+        </ul>
+    </aside>
+</main>
+<!--NewsLetter-->
+<section class="news">
+    <h3>NewsLetter</h3>
+    <p>Acompanhe as melhores noticias sobre tecnologia</p>
+    <form method="POST">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <button>Submit</button>
+    </form>
+</section>
+  </body>
+</html>
